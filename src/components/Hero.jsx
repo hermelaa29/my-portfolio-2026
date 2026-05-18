@@ -88,7 +88,7 @@ export default function Hero() {
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="/src/assets/cv dev.pdf"
+                href="/cv dev.pdf"
                 download
                 className="flex items-center justify-center space-x-2 px-6 py-3.5 bg-emerald-500/5 hover:bg-emerald-500/10 border border-emerald-500/20 hover:border-emerald-500/40 text-emerald-300 font-medium rounded-xl transition-all duration-300 hover:-translate-y-0.5"
               >

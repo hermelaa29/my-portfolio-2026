@@ -108,14 +108,14 @@ export default function Navbar() {
             
             {/* Social & Resume Button */}
             <div className="flex items-center space-x-4 border-l border-emerald-500/20 pl-6">
-              <a href="github.com/hermelaa29" target="_blank" rel="noreferrer" className="text-emerald-400/60 hover:text-emerald-300 hover:scale-110 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/20">
+              <a href="https://github.com/hermelaa29" target="_blank" rel="noreferrer" className="text-emerald-400/60 hover:text-emerald-300 hover:scale-110 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/20">
                 <Github size={18} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-emerald-400/60 hover:text-emerald-300 hover:scale-110 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/20">
+              <a href="https://www.linkedin.com/in/hermela-addis-09754b297/" target="_blank" rel="noreferrer" className="text-emerald-400/60 hover:text-emerald-300 hover:scale-110 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/20">
                 <Linkedin size={18} />
               </a>
               <a 
-                href="/src/assets/cv dev.pdf"
+                href="/cv dev.pdf"
                 download
                 className="px-4 py-2 text-xs font-semibold tracking-wider text-white uppercase bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-500 hover:to-green-500 rounded-lg shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 transition-all duration-300 hover:-translate-y-0.5 hover:scale-105 border border-emerald-500/30"
               >
@@ -157,7 +157,7 @@ export default function Navbar() {
               <a href="https://twitter.com" className="text-emerald-400/60 hover:text-emerald-300 hover:scale-110 transition-all"><Twitter size={20} /></a>
             </div>
             <a 
-              href="/src/assets/cv dev.pdf"
+              href="/cv dev.pdf"
               download
               onClick={() => setIsOpen(false)}
               className="px-4 py-2 text-xs font-semibold tracking-wider text-white uppercase bg-gradient-to-r from-emerald-600 to-green-600 rounded-lg border border-emerald-500/30"

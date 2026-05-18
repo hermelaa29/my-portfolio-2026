@@ -186,7 +186,7 @@ export default function Contact() {
                 <a href="https://github.com/hermelaa29" className="p-3 rounded-xl bg-emerald-950/30 hover:bg-emerald-950/50 hover:text-emerald-300 text-emerald-400/60 border border-emerald-500/20 hover:border-emerald-500/40 hover:scale-110 hover:shadow-lg hover:shadow-emerald-500/20 transition-all duration-300">
                   <Github size={20} />
                 </a>
-                <a href="https://linkedin.com" className="p-3 rounded-xl bg-emerald-950/30 hover:bg-emerald-950/50 hover:text-emerald-300 text-emerald-400/60 border border-emerald-500/20 hover:border-emerald-500/40 hover:scale-110 hover:shadow-lg hover:shadow-emerald-500/20 transition-all duration-300">
+                <a href="https://www.linkedin.com/in/hermela-addis-09754b297/" className="p-3 rounded-xl bg-emerald-950/30 hover:bg-emerald-950/50 hover:text-emerald-300 text-emerald-400/60 border border-emerald-500/20 hover:border-emerald-500/40 hover:scale-110 hover:shadow-lg hover:shadow-emerald-500/20 transition-all duration-300">
                   <Linkedin size={20} />
                 </a>
                 <a href="https://twitter.com" className="p-3 rounded-xl bg-emerald-950/30 hover:bg-emerald-950/50 hover:text-emerald-300 text-emerald-400/60 border border-emerald-500/20 hover:border-emerald-500/40 hover:scale-110 hover:shadow-lg hover:shadow-emerald-500/20 transition-all duration-300">
@@ -257,7 +257,10 @@ export default function Contact() {
                     rows="5"
                     value={formState.message}
                     onChange={handleChange}
-                    placeholder="Tell me about your project, timelines, or anything else..."
+                    placeholder="please write your name and email adress in here again before providing details about your project.
+
+
+Tell me about your project, timelines, or anything else..."
                     required
                     className="w-full bg-emerald-950/30 border border-emerald-500/20 focus:border-emerald-500/50 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 outline-none transition-all resize-none"
                   ></textarea>

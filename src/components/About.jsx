@@ -71,8 +71,8 @@ function AnimatedProgress({ level, duration = 1500 }) {
 
 export default function About() {
   const stats = [
-    { label: 'Years Experience', value: 4, suffix: '+', icon: Award },
-    { label: 'Completed Projects', value: 50, suffix: '+', icon: Zap },
+    { label: 'Years Experience', value: 2, suffix: '+', icon: Award },
+    { label: 'Completed Projects', value: 10, suffix: '+', icon: Zap },
     { label: 'Ethical Exploits Found', value: 12, suffix: '+', icon: ShieldCheck },
   ];
 
